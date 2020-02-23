@@ -12,6 +12,7 @@ public class OverloadingPractice {
     public static void add(int num) {
 
         System.out.println(num + 100);
+       // add(num,100);  // this calls x and y add method just below
     }
 
     public static void add(int x, int y) {
